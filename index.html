@@ -1,93 +1,111 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
+<!-- saved from url=(0022)http://127.0.0.1:5500/ -->
+<html lang="pt-br"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Site sobre Gossip Girl</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 20px;
-            padding: 0;
-        }
-        h1, h2, h3 {
-            color: #333;
-            margin-bottom: 10px;
-        }
-        p {
-            margin-bottom: 15px;
-        }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-        }
-        .intro {
-            text-align: center;
-            margin-bottom: 30px;
-        }
-        .section {
-            margin-bottom: 40px;
-        }
-        .section h2 {
-            border-bottom: 1px solid #ccc;
-            padding-bottom: 5px;
-        }
-        .section p {
-            text-align: justify;
-        }
-        .footer {
-            text-align: center;
-            margin-top: 50px;
-            color: #777;
-        }
-    </style>
+    <meta name="description" content="Site sobre a agricultura no Brasil, com dicas, notícias e mais.">
+    <title>Agricultura no Brasil</title>
+    <link rel="stylesheet" href="./index_files/styles.css">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>Meu Site sobre Gossip Girl</h1>
-            <p class="intro">Tudo sobre a série que mexeu com Nova York!</p>
-        </header>
-
-        <section class="section">
-            <h2>O que é Gossip Girl?</h2>
-            <p>
-                Gossip Girl é uma série de televisão que acompanha a vida de jovens da elite de Manhattan, focando especialmente na misteriosa blogueira que revela os segredos mais obscuros e escandalosos dos personagens.
-            </p>
-        </section>
-
-        <section class="section">
-            <h2>Personagens Principais</h2>
-            <p>
-                Conheça os principais personagens da série e suas histórias intrigantes que envolvem amor, traição e amizade.
-            </p>
+    <header>
+        <div class="logo">
+            <h1>Agricultura no Brasil</h1>
+        </div>
+        <nav>
             <ul>
-                <li>Blair Waldorf</li>
-                <li>Serena van der Woodsen</li>
-                <li>Chuck Bass</li>
-                <li>Dan Humphrey</li>
-                <li>Nate Archibald</li>
+                <li><a href="http://127.0.0.1:5500/#home">Home</a></li>
+                <li><a href="http://127.0.0.1:5500/#praticas">Práticas Agrícolas</a></li>
+                <li><a href="http://127.0.0.1:5500/#noticias">Notícias</a></li>
+                <li><a href="http://127.0.0.1:5500/#contato">Contato</a></li>
             </ul>
-        </section>
+        </nav>
+    </header>
 
-        <section class="section">
-            <h2>Episódios e Temporadas</h2>
-            <p>
-                Descubra detalhes das temporadas e episódios que marcaram época na televisão.
-            </p>
+    <section id="home">
+        <div class="content">
+            <h2>Bem-vindo à Agricultura no Brasil</h2>
+            <p>Explore o universo da agricultura no Brasil. Encontre informações sobre as práticas agrícolas, novidades do setor e dicas essenciais para produtores rurais.</p>
+        </div>
+    </section>
+
+    <section id="praticas">
+        <div class="content">
+            <h2>Práticas Agrícolas</h2>
+            <p>Saiba mais sobre as melhores práticas de cultivo, manejo de solo, uso de tecnologias agrícolas e muito mais.</p>
+        </div>
+    </section>
+
+    <section id="noticias">
+        <div class="content">
+            <h2>Últimas Notícias</h2>
             <ul>
-                <li>Temporada 1: Intrigas e Segredos</li>
-                <li>Temporada 2: Amor e Desilusões</li>
-                <li>Temporada 3: Reviravoltas e Conspirações</li>
-                <li>Temporada 4: Novos Rumos e Antigos Amores</li>
-                <li>Temporada 5: Conclusões e Surpresas</li>
+                <li><a href="http://127.0.0.1:5500/#">O Impacto das Mudanças Climáticas na Agricultura Brasileira</a></li>
+                <li><a href="http://127.0.0.1:5500/#">Avanços na Agricultura de Precisão</a></li>
+                <li><a href="http://127.0.0.1:5500/#">Novos Programas de Apoio ao Pequeno Produtor</a></li>
             </ul>
-        </section>
+        </div>
+    </section>
 
-        <footer class="footer">
-            <p>Este site foi criado para fins educativos e de entretenimento. Todos os direitos reservados.</p>
-        </footer>
-    </div>
-</body>
-</html>
+    <section id="contato">
+        <div class="content">
+            <h2>Entre em Contato</h2>
+            <form action="http://127.0.0.1:5500/#" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required="">
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required="">
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required=""></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Agricultura no Brasil | Todos os direitos reservados</p>
+    </footer>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>
